@@ -1,0 +1,9 @@
+/home/anton/AntonGrigorev/workspace/projects/homework03/hello_world_application/_build3/CMakeFiles/rebuild_cache.dir
+/home/anton/AntonGrigorev/workspace/projects/homework03/hello_world_application/_build3/CMakeFiles/hello_world.dir
+/home/anton/AntonGrigorev/workspace/projects/homework03/hello_world_application/_build3/CMakeFiles/edit_cache.dir
+/home/anton/AntonGrigorev/workspace/projects/homework03/hello_world_application/_build3/sub2/CMakeFiles/rebuild_cache.dir
+/home/anton/AntonGrigorev/workspace/projects/homework03/hello_world_application/_build3/sub2/CMakeFiles/formatter_ex.dir
+/home/anton/AntonGrigorev/workspace/projects/homework03/hello_world_application/_build3/sub2/CMakeFiles/edit_cache.dir
+/home/anton/AntonGrigorev/workspace/projects/homework03/hello_world_application/_build3/sub2/sub/CMakeFiles/rebuild_cache.dir
+/home/anton/AntonGrigorev/workspace/projects/homework03/hello_world_application/_build3/sub2/sub/CMakeFiles/formatter.dir
+/home/anton/AntonGrigorev/workspace/projects/homework03/hello_world_application/_build3/sub2/sub/CMakeFiles/edit_cache.dir

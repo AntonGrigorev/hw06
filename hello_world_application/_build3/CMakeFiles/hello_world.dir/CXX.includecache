@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../formatter_ex_lib/formatter_ex.h
+string
+-
+iostream
+-
+
+/home/anton/AntonGrigorev/workspace/projects/homework03/hello_world_application/hello_world.cpp
+iostream
+-
+formatter_ex.h
+/home/anton/AntonGrigorev/workspace/projects/homework03/hello_world_application/formatter_ex.h
+

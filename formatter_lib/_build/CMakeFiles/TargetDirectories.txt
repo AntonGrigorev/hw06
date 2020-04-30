@@ -1,0 +1,3 @@
+/home/anton/AntonGrigorev/workspace/projects/homework03/formatter_lib/_build/CMakeFiles/rebuild_cache.dir
+/home/anton/AntonGrigorev/workspace/projects/homework03/formatter_lib/_build/CMakeFiles/formatter.dir
+/home/anton/AntonGrigorev/workspace/projects/homework03/formatter_lib/_build/CMakeFiles/edit_cache.dir
