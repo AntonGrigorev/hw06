@@ -1,5 +1,5 @@
 ## Laboratory work III
-
+[![Build status](https://ci.appveyor.com/api/projects/status/gx0gphs4bi47pbi3?svg=true)](https://ci.appveyor.com/project/AntonGrigorev/homework04)
 <a href="https://yandex.ru/efir/?stream_id=vjKAlxJ0UQrs"><img src="https://raw.githubusercontent.com/tp-labs/lab03/master/preview.png" width="640"/></a>
 
 Данная лабораторная работа посвещена изучению систем автоматизации сборки проекта на примере **CMake**
