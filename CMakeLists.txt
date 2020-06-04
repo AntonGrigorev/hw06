@@ -32,13 +32,7 @@ add_executable(solver solver_application/equation.cpp)
 target_link_libraries(solver formatter formatter_ex solver_lib)
 install(TARGETS solver DESTINATION bin)
 include(CPackConfig.cmake)
-file:
-  - ./_build/solver-1.0.0.-Darwin.dmg
-  - ./_build/solver-1.0.0.-Linux.deb
-  - ./_build/solver-1.0.0.-Linux.rpm
-skip_cleanup: true
-on:
-  tags: true
+
 
 
 
