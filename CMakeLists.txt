@@ -33,8 +33,3 @@ target_link_libraries(solver formatter formatter_ex solver_lib)
 install(TARGETS solver DESTINATION bin)
 include(CPackConfig.cmake)
 
-
-
-
-
-
