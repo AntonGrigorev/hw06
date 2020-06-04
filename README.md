@@ -1,5 +1,7 @@
 ## Laboratory work III
-[![Build status](https://ci.appveyor.com/api/projects/status/j1j71igvamatx375?svg=true)](https://ci.appveyor.com/project/AntonGrigorev/homework03)
+[![Build status](https://ci.appveyor.com/api/projects/status/j1j71igvamatx375?svg=true)](https://ci.appveyor.com/project/AntonGrigorev/hwk06)
+[![Build Status](https://travis-ci.com/AntonGrigorev/hw06.svg?token=v9hqiC7yR3misZ6Yex8S&branch=master)](https://travis-ci.com/AntonGrigorev/hw06)
+
 <a href="https://yandex.ru/efir/?stream_id=vjKAlxJ0UQrs"><img src="https://raw.githubusercontent.com/tp-labs/lab03/master/preview.png" width="640"/></a>
 
 Данная лабораторная работа посвещена изучению систем автоматизации сборки проекта на примере **CMake**
