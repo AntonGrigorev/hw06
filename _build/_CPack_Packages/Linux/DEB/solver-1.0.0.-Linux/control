@@ -1,0 +1,10 @@
+Package: appsolver
+Version: 1.0.0.-1
+Section: devel
+Priority: optional
+Architecture: amd64
+Pre-Depends: cmake >= 3.0
+Installed-Size: 92
+Maintainer: antongr2001@gmail.com
+Description: Application Solver
+

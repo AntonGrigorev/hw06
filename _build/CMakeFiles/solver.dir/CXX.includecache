@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../formatter_ex_lib/formatter_ex.h
+string
+-
+iostream
+-
+
+../solver_lib/solver.h
+
+/home/stas/AntonGrigorev/workspace/projects/hw06/solver_application/equation.cpp
+iostream
+-
+formatter_ex.h
+/home/stas/AntonGrigorev/workspace/projects/hw06/solver_application/formatter_ex.h
+solver.h
+/home/stas/AntonGrigorev/workspace/projects/hw06/solver_application/solver.h
+
