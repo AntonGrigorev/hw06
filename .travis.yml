@@ -24,8 +24,8 @@ addons:
     - rpm
 deploy:
   provider: releases
-  user: "AntonGrigorev"
-  password: "Aa9253325021"
+  user: AntonGrigorev
+  password: Aa9253325021
   file: ./_build/solver-1.0.0.-Linux.deb
 #    - ./_build/solver-1.0.0.-Darwin.dmg
 #    - ./_build/solver-1.0.0.-Linux.deb
