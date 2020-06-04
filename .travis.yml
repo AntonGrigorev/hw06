@@ -25,7 +25,7 @@ addons:
 deploy:
   provider: releases
   api_key:
-        secure: a66cfb824de253bee7df0a878665f45932ab88b5
+        secure: 6e8a90959bf15ecbed12afb711e169b8f6ef8887
   file: ./_build/solver-1.0.0.-Linux.deb
 #    - ./_build/solver-1.0.0.-Darwin.dmg
 #    - ./_build/solver-1.0.0.-Linux.deb
