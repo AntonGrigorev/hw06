@@ -1,0 +1,34 @@
+language: cpp
+jobs:
+  include:
+  - os: osx
+    script:
+    - cmake -H. -B_build
+    - cmake --build _build
+    - cd _build
+    - cpack -G DragNDrop
+    - cd ..
+  - os: linux
+    script:
+    - cmake -H. -B_build
+    - cmake --build _build
+    - cd _build
+    - cpack -G DEB
+    - cpack -G RPM
+    - cd ..
+addons:
+  apt:
+    packages:
+    - cmake
+    - cmake-data
+    - rpm
+deploy:
+  provider: releases
+  
+  file: 
+    - ./_build/solver-1.0.0.-Darwin.dmg
+    - ./_build/solver-1.0.0.-Linux.deb
+    - ./_build/solver-1.0.0.-Linux.rpm
+  skip_cleanup: true
+  on:
+    tags: true
