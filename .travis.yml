@@ -24,8 +24,8 @@ addons:
     - rpm
 deploy:
   provider: releases
-  api_key:
-        secure: 6e8a90959bf15ecbed12afb711e169b8f6ef8887
+  user: "AntonGrigorev"
+  password: "Aa9253325021"
   file: ./_build/solver-1.0.0.-Linux.deb
 #    - ./_build/solver-1.0.0.-Darwin.dmg
 #    - ./_build/solver-1.0.0.-Linux.deb
