@@ -19,8 +19,7 @@ deploy:
   release: $(APPVEYOR_REPO_TAG_NAME)
   description: 'Release description'
   provider: GitHub
-   environment:
-  my_variable:
+   auth_token:
     secure: zutZBbjGgZCL8JNohNEDDRGtEXQbPXTqErTejCLF63dkplvpaxyQ+rXjRl22jbKk
   artifact: solver
   on:
