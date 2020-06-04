@@ -1,2 +1,0 @@
-/usr/lib/libformatter.a
-/usr/bin/solver
