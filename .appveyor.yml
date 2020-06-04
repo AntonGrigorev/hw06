@@ -1,16 +1,24 @@
-version: 1.0.{build}
-image: Visual Studio 2017
+image: Visual Studio 2019
+platform:
+  - x86
+  - x64
+configuration: Release
 
 build_script:
- - cd hello_world_application
- - cmake -H. -B_build
- - cmake --build _build
- - cmake --build _build --target hello_world
- - _build\Debug\hello_world.exe
- - echo "Testing hello_world is done"
- - cd ..
- - cd solver_application
- - cmake -H. -B_build
- - cmake --build _build
- - cmake --build _build --target solver
- - echo "Testing solver is done"
+  - cmd: cmake -H. -B_build
+  - cmd: cmake --build _build --config Release
+  - cmd: cd _build
+  - cmd: ls
+  - cmd: cpack -G NSIS
+  - cmd: cd ..
+
+artifacts:
+  - path: ./_build/*.exe
+    name: solver
+deploy:
+  release: $(APPVEYOR_REPO_TAG_NAME)
+  description: 'Release description'
+  provider: GitHub
+    artifact: solver
+  on:
+    APPVEYOR_REPO_TAG: true
