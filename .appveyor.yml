@@ -19,6 +19,6 @@ deploy:
   release: $(APPVEYOR_REPO_TAG_NAME)
   description: 'Release description'
   provider: GitHub
-    artifact: solver
+# artifact: solver
   on:
     APPVEYOR_REPO_TAG: true
