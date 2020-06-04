@@ -24,6 +24,7 @@ addons:
     - rpm
 deploy:
   provider: releases
+
   
   file: 
     - ./_build/solver-1.0.0.-Darwin.dmg
@@ -32,3 +33,4 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
+
