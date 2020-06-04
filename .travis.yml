@@ -24,12 +24,9 @@ addons:
     - rpm
 deploy:
   provider: releases
-  api_key: 6e8a90959bf15ecbed12afb711e169b8f6ef8887
-  file: ./_build/solver-1.0.0.-Linux.deb
-#    - ./_build/solver-1.0.0.-Darwin.dmg
-#    - ./_build/solver-1.0.0.-Linux.deb
-#    - ./_build/solver-1.0.0.-Linux.rpm
-  skip_cleanup: true
+  api_key:
+    secure: 1fHRH1NjNqd2esW0AMu7yC1dG00wAaHfn0Wbo3DFfwXNyxQ7dIpsN/8KgtJLdLYqkypQm8mlnZrjIcPqe2Oe5WMpG8xrKE2c0lPSiaoA9MYvzb9DzBXfrcWHhMT0Z4SRNXWn0et65PG2dj4zzeluI3i6ImokdKdcPO8L8xl8/Ca/LC5zBZkAYg7X8iGnvUhm3a8QT7t13xXbocWNksQe1VWubsmqUEy9slfKb8/2togIdM968QpEbaogQyx0WDw5yc05UfamIPzSbmeF7gd53qekMWaVMR6HB0eqj3PPMvGOAMkD5ZxWyoMlUmWMesKHTl6FjRKXwt1qB6JXhiJpbjrVywzlYjGJTPx/A871d8C0Tu0H+7YnPO1D8OeJ9xLHFZ8z1TvvjYsstoJydA+uXP94XV4gAecJ+QOpIg85sK4MkiKFDnJTdFWC8ghUYf2UX4IL+imbegOslyWdMgGzHV7JgfVkP3Nh9uml/CMQyT1Eauu7U+2zJJqtAgoZPz7eOnyx85ICMdj5ooOrY53lhndYy1SfM5j64oOIHHI0xCSNomGmx8uUuYm6riqS0qRvQMENZxPpdEiJq9ux116yQfTEErdiy6VTigUeIh5XIG3d+FdYLS6wnMG6qtEntDHxMfRWgIzxJUuIIwh911W6WuWVBR5AqfidASNIfJ3MYVA=
+  file: solver-1.0.0.-Linux.deb
   on:
-    tags: true
-
+    repo: AntonGrigorev/hw06
+  skip_cleanup: 'true'
