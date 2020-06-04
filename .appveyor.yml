@@ -21,9 +21,7 @@ deploy:
   description: 'Release description'
   provider: GitHub
    auth_token:
-    secure: zutZBbjGgZCL8JNohNEDDRGtEXQbPXTqErTejCLF63dkplvpaxyQ+rXjRl22jbKk
+    secure: zsiJGPNgQ2m1iHORIXptBUIAzG8D9t98hjfVS2uL1q++s87bB5hX+/so1rTiL48y
   artifact: solver
-  on:
-    branch: master                 # release from master branch only
-    APPVEYOR_REPO_TAG: true
-    APPVEYOR_REPO_TAG: true
+  on:            
+      APPVEYOR_REPO_TAG: true
