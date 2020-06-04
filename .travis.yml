@@ -26,7 +26,7 @@ deploy:
   provider: releases
 
 #  file: 
-#    - ./_build/solver-1.0.0.-Darwin.dmg
+#    - ./_build/solver-2.0.0.-Darwin.dmg
 #    - ./_build/solver-1.0.0.-Linux.deb
 #    - ./_build/solver-1.0.0.-Linux.rpm
   skip_cleanup: true
