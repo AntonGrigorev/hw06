@@ -23,4 +23,6 @@ deploy:
     secure: zutZBbjGgZCL8JNohNEDDRGtEXQbPXTqErTejCLF63dkplvpaxyQ+rXjRl22jbKk
   artifact: solver
   on:
-    APPVEYOR_REPO_TAG: false
+    branch: master                 # release from master branch only
+    APPVEYOR_REPO_TAG: true
+    APPVEYOR_REPO_TAG: true
