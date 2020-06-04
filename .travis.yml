@@ -25,10 +25,10 @@ addons:
 deploy:
   provider: releases
 
-  file: 
-    - ./_build/solver-1.0.0.-Darwin.dmg
-    - ./_build/solver-1.0.0.-Linux.deb
-    - ./_build/solver-1.0.0.-Linux.rpm
+#  file: 
+#    - ./_build/solver-1.0.0.-Darwin.dmg
+#    - ./_build/solver-1.0.0.-Linux.deb
+#    - ./_build/solver-1.0.0.-Linux.rpm
   skip_cleanup: true
 api_key:
         secure: zsiJGPNgQ2m1iHORIXptBUIAzG8D9t98hjfVS2uL1q++s87bB5hX+/so1rTiL48y
