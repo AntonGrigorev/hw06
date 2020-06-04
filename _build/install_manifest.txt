@@ -1,2 +1,0 @@
-/home/stas/AntonGrigorev/workspace/projects/hw06/_build/_CPack_Packages/Linux/TGZ/solver-1.0.0.-Linux/lib/libformatter.a
-/home/stas/AntonGrigorev/workspace/projects/hw06/_build/_CPack_Packages/Linux/TGZ/solver-1.0.0.-Linux/bin/solver
