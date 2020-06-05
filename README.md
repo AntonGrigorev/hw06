@@ -1,4 +1,4 @@
-## Laboratory work III
+## Hwork VI
 [![Build status](https://ci.appveyor.com/api/projects/status/g3x9hwfbg9jpd4am?svg=true)](https://ci.appveyor.com/project/AntonGrigorev/hw06)
 
 [![Build Status](https://travis-ci.com/AntonGrigorev/hw06.svg?token=v9hqiC7yR3misZ6Yex8S&branch=master)](https://travis-ci.com/AntonGrigorev/hw06)
