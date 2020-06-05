@@ -29,4 +29,7 @@ deploy:
   file: solver-1.0.0.-Linux.deb
   on:
     repo: AntonGrigorev/hw06
+    branches:
+      only:
+        - master
   skip_cleanup: true
