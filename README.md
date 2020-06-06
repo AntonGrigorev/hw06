@@ -1,4 +1,4 @@
-## Laboratory work III
+## Homework VI
 [![Build status](https://ci.appveyor.com/api/projects/status/g3x9hwfbg9jpd4am?svg=true)](https://ci.appveyor.com/project/AntonGrigorev/hw06)
 
 [![Build Status](https://travis-ci.com/AntonGrigorev/hw06.svg?token=v9hqiC7yR3misZ6Yex8S&branch=master)](https://travis-ci.com/AntonGrigorev/hw06)
@@ -13,10 +13,10 @@ $ open https://cmake.org/
 
 ## Tasks
 
-- [ ] 1. Создать публичный репозиторий с названием **lab03** на сервисе **GitHub**
-- [ ] 2. Ознакомиться со ссылками учебного материала
-- [ ] 3. Выполнить инструкцию учебного материала
-- [ ] 4. Составить отчет и отправить ссылку личным сообщением в **Slack**
+- [x] 1. Создать публичный репозиторий с названием **lab03** на сервисе **GitHub**
+- [x] 2. Ознакомиться со ссылками учебного материала
+- [x] 3. Выполнить инструкцию учебного материала
+- [x] 4. Составить отчет и отправить ссылку личным сообщением в **Slack**
 
 ## Tutorial
 
@@ -31,10 +31,10 @@ $ source scripts/activate
 ```
 
 ```sh
-$ git clone https://github.com/${GITHUB_USERNAME}/lab02.git projects/lab03
-$ cd projects/lab03
+$ git clone https://github.com/${GITHUB_USERNAME}/lab03.git projects/hw06
+$ cd projects/hw06
 $ git remote remove origin
-$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab03.git
+$ git remote add origin https://github.com/${GITHUB_USERNAME}/hw06.git
 ```
 
 ```sh
