@@ -11,6 +11,7 @@ build_script:
   - cmd: cd _build
   - cmd: ls
   - cmd: cpack -G NSIS
+  - cmd: cpack -G WIX
   - cmd: cd ..
 
 artifacts:
