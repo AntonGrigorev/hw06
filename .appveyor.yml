@@ -14,7 +14,7 @@ build_script:
   - cmd: cd ..
 
 artifacts:
-  - path: ./_build/*.exe
+  - path: ./_build/*.msi
     name: solver
 deploy:
   release: $(APPVEYOR_REPO_TAG_NAME)
