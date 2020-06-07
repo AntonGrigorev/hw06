@@ -30,7 +30,7 @@ deploy:
     - ./_build/solver-1.0.0.-Darwin.dmg
     - ./_build/solver-1.0.0.-Linux.deb
     - ./_build/solver-1.0.0.-Linux.rpm
-  deploy.skip_cleanup: true
+  skip_cleanup: true
   on:
     repo: AntonGrigorev/hw06
     tags: true
